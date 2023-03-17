@@ -115,7 +115,7 @@ body {
   grid-template-columns: auto auto auto;
   align-items: center;
   margin: 0;
-  gap: 26px;
+  gap: 24px;
   padding: 0;
 }
 
@@ -149,6 +149,7 @@ body {
   position: relative;
 }
 
+
 .favorites-count {
   display: block;
   position: absolute;
@@ -160,8 +161,8 @@ body {
   min-width: 20px;
   width: 20px;
   height: 20px;
-  top: 32%;
-  left: 99%;
+  top: 33%;
+  left: 18px;
   transform: translate(-50%, -50%);
   color: rgba(255, 255, 255, 1);
   text-align: center;
@@ -174,6 +175,8 @@ body {
   align-items: center;
   padding: 22px 0;
 }
+
+
 
 .button {
   background: rgba(117, 97, 87, 1);
@@ -188,6 +191,18 @@ body {
   margin: 0;
   justify-content: center;
   align-items: center;
+}
+
+.button.navigation-item-link-button {
+  display: block;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding: 8px 34px;
+  margin-left: 9px;
 }
 
 .button.navigation-item-link-button:hover,
@@ -217,17 +232,7 @@ body {
 }
 
 
-.button.navigation-item-link-button {
-  display: block;
-  text-decoration: none;
-  color: rgba(255, 255, 255, 1);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  text-transform: uppercase;
-  padding: 8px 34px;
-  margin-left: 7px;
-}
+
 
 .main-container {
   flex-grow: 1;
@@ -1309,15 +1314,10 @@ button.button-reset:disabled {
 .raiting-stars {
   list-style-type: none;
   display: flex;
-  justify-content: flex-start;
   margin: 0;
   padding: 0;
-  gap: 8px;
+  gap: 6px;
 }
-
-
-
-
 
 .raiting-info {
   margin: 0;
@@ -1532,7 +1532,7 @@ button.button-reset:disabled {
   fill: rgba(117, 97, 87, 1);
 }
 
-.footer-htmlacademy:active {
+.footer-htmlacademy:active path{
   fill: rgba(117, 97, 87, 0.3);
 }
 
@@ -1551,9 +1551,7 @@ button.button-reset:disabled {
   justify-content: center;
 }
 
-.footer-logo-img:hover {
-  color: rgba(117, 97, 87, 1);
-}
+
 
 .modal-container {
   position: fixed;
